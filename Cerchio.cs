@@ -21,5 +21,9 @@ namespace Es_Cerchio
         {
             return (float)(Math.PI * Raggio*2);
         }
+        public override string ToString()
+        {
+            return Raggio.ToString();
+        }
     }
 }

@@ -14,6 +14,7 @@ namespace Es_Cerchio
             Cerchio c= new Cerchio(r);
             Console.WriteLine(c.Area());
             Console.WriteLine(c.Perimetro());
+            Console.WriteLine(c);
             Console.ReadLine();
         }
     }
