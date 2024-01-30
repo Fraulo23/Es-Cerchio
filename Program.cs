@@ -12,9 +12,10 @@ namespace Es_Cerchio
         {
             float r = float.Parse(Console.ReadLine());
             Cerchio c= new Cerchio(r);
-            Console.WriteLine(c.Area());
-            Console.WriteLine(c.Perimetro());
-            Console.WriteLine(c);
+            Cerchio c1 = Cerchio.Parse(c.ToString());
+            Console.WriteLine(c1.Area());
+            Console.WriteLine(c1.Perimetro());
+            Console.WriteLine(c1);
             Console.ReadLine();
         }
     }

@@ -25,5 +25,10 @@ namespace Es_Cerchio
         {
             return Raggio.ToString();
         }
+        public static Cerchio Parse(string s )
+        {
+            float r=float.Parse(s);
+            return new Cerchio(r);
+        }
     }
 }
